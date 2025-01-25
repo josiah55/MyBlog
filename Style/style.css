@@ -15,20 +15,31 @@
 
 /* Hero sec */
 .header {
-  background: url('/Images/hero1.avif');
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/Images/hero10.avif');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 50vh;
+  height: 100vh;
 }
 
-#header h1 {
-  font-size: 50px;
+.header .container {
+  margin-top: 350px;
+}
+
+.header h1 {
+  font-size: 70px;
   font-style: italic;
 }
 
-#header p {
+.header p {
   font-size: 20px;
+}
+
+/* About */
+.subscribe input {
+  padding: 10px;
+  border-radius: 5px;
+  width: 50%;
 }
 
 /* Aside */
@@ -37,7 +48,10 @@
   text-decoration: none;
 }
 
-/* Social media links */
+#container {
+  margin-top: 500px;
+}
+
 #icons a {
   text-decoration: none;
 }
