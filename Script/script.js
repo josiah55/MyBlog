@@ -23,3 +23,5 @@ function updateTimeAgo() {
 
 setInterval(updateTimeAgo, 1000); // Refresh every second
 updateTimeAgo(); // Initial call
+
+

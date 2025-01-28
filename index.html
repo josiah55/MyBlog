@@ -38,7 +38,7 @@
 <section class="container mt-5">
   <div class="row align-items-center">
       <div class="col-md-6">
-          <img src="/Images/hero4.avif" class="img-fluid rounded shadow" alt="About Us">
+          <img src="/Images/hero4.avif" class="img-fluid rounded shadow" style="filter: brightness(70%);" alt="About Us">
       </div>
       <div class="col-md-6" id="About">
           <h2>Who We Are</h2>
@@ -62,22 +62,24 @@
       <p>Stay connected and be part of our amazing community. Follow us on social media and subscribe to our <a href="#newsletter">newsletter</a> for the latest updates.</p>    
             <button class="btn btn-warning dropdown-toggle mt-2" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">Follow Us</button>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <div class="d-flex gap-3">
+          <div class="d-flex gap-3">
               <li><a class="dropdown-item text-primary" href="#"><i class="bi bi-facebook"></i>Facebook</a></li>
               <li><a class="dropdown-item text-info" href="#"><i class="bi bi-twitter"></i>Twitter</a></li>
               <li><a class="dropdown-item text-danger" href="#"><i class="bi bi-instagram"></i>Instagram</a></li>
-          </ul>
+            </ul>
           </div>
       </div>
-  </div>
 </section>
 
-<!--Recent Post-->
+<!--main-->
 <div class="container mt-5 pt-5">
-    <div class="row">
+    <div class="row mt-5 pt-5">
         <div class="col-md-8">
-            <h2 class="text-center mb-4">Recent Posts</h2>
-            <div class="row">
+          <div class="position-relative text-center my-4">
+            <hr class="mx-auto bg-dark" style="height: 8px; border: none;">
+            <span class="position-absolute top-50 start-50 translate-middle bg-white px-3 fw-bold fs-4">NEW POSTS</span>
+        </div>
+            <div class="row mt-5">
                 <div class="col-md-6">
                     <div class="card mb-3">
                         <img src="/Images/post1.webp" class="card-img-top" alt="Blog Post 1">
@@ -260,6 +262,7 @@
 </div>
 </div>
 </div>
+
         <!--Aside-->
         <aside class="col-md-4 mt-3">
             <div class="sidebar">
@@ -277,9 +280,21 @@
                     <li class="list-group-item"><a href="#">Events</a></li>
                 </ul>
             </div>
-        </aside>
+            
+            <!-- Recent Posts Sidebar -->
+          <div class="p-4 mt-5 pt-5">
+                  <h4 class="fw-bold fs-4">Recent Posts</h4>
+              <ul class="list-unstyled fs-6 fw-bold">
+                  <li><a href="#" class="text-dark text-decoration-none">🚀 10 Life-Changing Travel Destinations for Solo Travelers</a></li><br>
+                  <li><a href="#" class="text-dark text-decoration-none">💻 Top 5 Laptops for Content Creators in 2025</a></li><br>
+                  <li><a href="#" class="text-dark text-decoration-none">🔥 The Ultimate Guide to Losing Weight Without Starving</a></li><br>
+                  <li><a href="#" class="text-dark text-decoration-none">📈 Cryptocurrency Trends You Should Watch in 2025</a></li>
+              </ul>
+          </div>
+      </aside>
     </div>
 </div>
+
 
 <!--Footer-->
 <section class="mt-5 pt-5 py-5 bg-light border-top"></section>

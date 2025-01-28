@@ -44,7 +44,7 @@
 
 /* Aside */
 .list-group li a {
-  color: rgb(225, 142, 142) !important;
+  color: rgb(225, 142, 142);
   text-decoration: none;
 }
 
