@@ -25,3 +25,8 @@ setInterval(updateTimeAgo, 1000); // Refresh every second
 updateTimeAgo(); // Initial call
 
 
+//dark mode
+function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
